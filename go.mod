@@ -1,4 +1,4 @@
-module github.com/ory/hydra
+module github.com/adamplansky/hydra
 
 require (
 	cloud.google.com/go/bigquery v1.0.1 // indirect
@@ -64,3 +64,5 @@ replace git.apache.org/thrift.git => github.com/apache/thrift v0.0.0-20180902110
 replace github.com/golang/lint => github.com/golang/lint v0.0.0-20190227174305-8f45f776aaf1
 
 go 1.13
+
+replace github.com/ory/fosite => github.com/adamplansky/fosite v0.30.3-0.20191127131058-b09c316e9377
